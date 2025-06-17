@@ -1,21 +1,21 @@
 import { useState } from 'react';
-import { useRouter} from 'next/router';
-import "./Login.module.css";
+import { useRouter } from 'next/router';
+import styles from '../styles/Login.module.css';
 
 export default function Login() {
-    const [ role , setRole] = useState("");
-    const router = useRouter();
+  const [role, setRole] = useState('');
+  const router = useRouter();
 
-    const handleLogin = () => {
-        if(role){
-            router.push(`/dashboard?role=${role}`);
-        }else{
-            alert("Please select a role");
-        }
+  const handleLogin = () => {
+    if (role) {
+      router.push(`/dashboard?role=${role}`);
+    } else {
+      alert('Please select a role');
     }
+  };
 
-    return (
-    <div className={styles['login-container']}>
+  return (
+    <div className={styles.loginContainer}>
       <h2>Login to TL-Connect</h2>
       <select value={role} onChange={(e) => setRole(e.target.value)}>
         <option value="">Select your role</option>
@@ -26,6 +26,5 @@ export default function Login() {
       </select>
       <button onClick={handleLogin}>Login</button>
     </div>
-    );
+  );
 }
-

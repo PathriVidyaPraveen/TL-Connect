@@ -7,21 +7,21 @@
   margin-top: auto;
 }
 
-.footer .social-links {
+.social-links {
   list-style: none;
   padding: 0;
   margin: 0.5rem 0 0;
 }
 
-.footer .social-links li {
+.social-links li {
   margin: 0.2rem 0;
 }
 
-.footer .social-links a {
+.social-links a {
   color: #ccc;
   text-decoration: underline;
 }
 
-.footer .social-links a:hover {
+.social-links a:hover {
   color: #fff;
 }

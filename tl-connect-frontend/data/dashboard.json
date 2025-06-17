@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Upcoming Workshops",
+    "items": [
+      { "title": "Arduino Bootcamp" },
+      { "title": "AI in Edge Devices" }
+    ]
+  },
+  {
+    "title": "Tasks",
+    "items": [
+      { "title": "Build IoT Dashboard" },
+      { "title": "Design PCB Layout" }
+    ]
+  },
+  {
+    "title": "Join Links",
+    "items": [
+      { "link": "https://meet.google.com/xyz-abc-def" }
+    ]
+  },
+  {
+    "title": "Announcements",
+    "items": [
+      { "message": "Lab cleanup at 6 PM today" }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+.container {
+  padding: 2rem;
+}
+
+.announcement {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.important {
+  background-color: #fff3cd;
+}
+
+.info {
+  background-color: #cce5ff;
+}
+
+.critical {
+  background-color: #f8d7da;
+}

@@ -1,0 +1,4 @@
+[
+  { "id": 1, "title": "Lab Maintenance", "content": "The lab will be closed on Monday.", "tag": "Info", "date": "2025-06-15" },
+  { "id": 2, "title": "Hackathon Starts!", "content": "The internal hackathon starts from 20th June.", "tag": "Important", "date": "2025-06-10" }
+]

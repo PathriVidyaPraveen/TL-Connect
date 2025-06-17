@@ -1,0 +1,6 @@
+[
+  { "name": "Alice", "role": "Core", "domain": "Hardware" },
+  { "name": "Bob", "role": "Lead", "domain": "Software" },
+  { "name": "Charlie", "role": "Member", "domain": "AI" },
+  { "name": "David", "role": "Student", "domain": "Design" }
+]

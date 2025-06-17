@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "Intro to Embedded Systems",
+    "date": "2025-06-10",
+    "link": "https://meet.google.com/xyz",
+    "assignments": ["link1", "link2"]
+  },
+  {
+    "topic": "3D Printing Basics",
+    "date": "2025-06-12",
+    "link": "https://meet.google.com/abc",
+    "assignments": ["link3"]
+  }
+]
