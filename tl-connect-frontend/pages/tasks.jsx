@@ -18,7 +18,7 @@ export default function Tasks() {
     <div>
       <Navbar />
       <div className={styles.layout}>
-        <Sidebar />
+        
         <main className={styles.content}>
           <h2>Tasks</h2>
           {Object.entries(groupedTasks).map(([domain, domainTasks]) => (

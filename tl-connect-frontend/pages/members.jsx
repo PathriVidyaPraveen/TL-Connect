@@ -18,7 +18,7 @@ export default function Members() {
     <div>
       <Navbar />
       <div className={styles.layout}>
-        <Sidebar />
+        
         <main className={styles.content}>
           <h2>Members</h2>
           {Object.entries(groupedMembers).map(([domain, domainMembers]) => (

@@ -9,7 +9,7 @@ export default function SummerSchool() {
     <div>
       <Navbar />
       <div className={styles.layout}>
-        <Sidebar />
+        
         <main className={styles.content}>
           <h2>Summer School</h2>
           <table className={styles.table}>

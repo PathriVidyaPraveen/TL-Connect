@@ -12,6 +12,7 @@ export default function Navbar() {
         <li><Link href="/tasks">Tasks</Link></li>
         <li><Link href="/members">Members</Link></li>
         <li><Link href="/announcements">Announcements</Link></li>
+        <li><Link href="/">Return to Home</Link></li>
       </ul>
     </nav>
   );

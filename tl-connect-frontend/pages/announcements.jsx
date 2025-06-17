@@ -9,7 +9,7 @@ export default function Announcements() {
     <div>
       <Navbar />
       <div className={styles.layout}>
-        <Sidebar />
+        
         <main className={styles.content}>
           <h2>Announcements</h2>
           <ul>

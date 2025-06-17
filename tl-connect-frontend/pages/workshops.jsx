@@ -9,7 +9,7 @@ export default function Workshops() {
     <div>
       <Navbar />
       <div className={styles.layout}>
-        <Sidebar />
+        
         <main className={styles.content}>
           <h2>Workshops</h2>
           <ul>

@@ -10,7 +10,7 @@ export default function Dashboard() {
     <div>
       <Navbar />
       <div className={styles.layout}>
-        <Sidebar />
+        
         <main className={styles.content}>
           <h2>Dashboard</h2>
           {data.map((card, index) => (
