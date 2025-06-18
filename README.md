@@ -156,47 +156,66 @@ Deploy via Vercel
 If your app is in a subfolder (like tl-connect-frontend):
 Go to vercel.com
 
-Connect your GitHub repository
+Connect your GitHub repository  
 
-During project setup:
 
-Root Directory: tl-connect-frontend
+During project setup:  
 
-Framework Preset: Next.js
 
-Click Deploy
+Root Directory: tl-connect-frontend  
 
-Once deployed, your frontend will be live at:
 
-https://<your-vercel-project>.vercel.app
-🐞 Known Issues
-No actual authentication — only simulated via role dropdown
+Framework Preset: Next.js  
 
-No backend integration (yet)
 
-Responsive layout may require further tuning on smaller devices
+Click Deploy  
 
-🧩 Future Work (Part 2 Preview)
-The second phase of this project will include:
+Once deployed, your frontend will be live at:  
 
-REST API integration with Go backend
 
-Real user authentication & session handling
+https://<your-vercel-project>.vercel.app  
 
-Dynamic task creation, assignment & updates
+🐞 Known Issues  
 
-Announcement creation (by Core team)
+No actual authentication — only simulated via role dropdown  
 
-File uploads for assignments
+
+No backend integration (yet)  
+
+
+Responsive layout may require further tuning on smaller devices  
+
+
+🧩 Future Work (Part 2 Preview)  
+
+The second phase of this project will include:  
+
+
+REST API integration with Go backend  
+
+
+Real user authentication & session handling  
+
+
+Dynamic task creation, assignment & updates  
+
+
+Announcement creation (by Core team)  
+
+
+File uploads for assignments  
+
 
 
 📸 Screenshots
-✅ Login Page
-<img src="./public/screenshots/login.png" width="600" />
-📋 Dashboard
-<img src="./public/screenshots/dashboard.png" width="600" />
-🎓 Summer School Page
-<img src="./public/screenshots/summer-school.png" width="600" />
+
+
+[![Whatch this video for the Project Demo]](https://youtu.be/4qZSLJpybio)  
+
+
+
+
+        
 
 
 **Made with ❤️ by P.Vidya Praveen**
