@@ -210,7 +210,7 @@ File uploads for assignments
 📸 Screenshots
 
 
-[![Whatch this video for the Project Demo]](https://youtu.be/4qZSLJpybio)  
+[Whatch this video for the Project Demo](https://youtu.be/4qZSLJpybio)  
 
 
 
