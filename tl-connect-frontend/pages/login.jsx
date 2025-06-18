@@ -1,10 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import styles from '../styles/Login.module.css';
 
 export default function Login() {
   const [role, setRole] = useState('');
+  const [textColor, setTextColor] = useState('#000'); // default to black
   const router = useRouter();
+
+  useEffect(() => {
+    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setTextColor(isDark ? '#fff' : '#000');
+  }, []);
 
   const handleLogin = () => {
     if (role) {
@@ -16,7 +22,7 @@ export default function Login() {
 
   return (
     <div className={styles.loginContainer}>
-      <h2 style={{ color: 'white' }}>Login to TL-Connect</h2>
+      <h2 style={{ color: textColor }}>Login to TL-Connect</h2>
       <select value={role} onChange={(e) => setRole(e.target.value)}>
         <option value="">Select your role</option>
         <option value="core">Core</option>
