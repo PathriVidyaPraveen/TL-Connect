@@ -16,7 +16,7 @@ export default function Login() {
 
   return (
     <div className={styles.loginContainer}>
-      <h2>Login to TL-Connect</h2>
+      <h2 style={{ color: 'white' }}>Login to TL-Connect</h2>
       <select value={role} onChange={(e) => setRole(e.target.value)}>
         <option value="">Select your role</option>
         <option value="core">Core</option>
